@@ -1,0 +1,12 @@
+*.exe
+cmd/client/client
+cmd/adbtest/adbtest
+cmd/luggagesvc/luggagesvc
+*.txt
+*.json
+*.zip
+*.swap
+*.crt
+*.cer
+*.key
+*.pem
