@@ -85,7 +85,7 @@
   branch = "master"
   name = "github.com/mangeshhendre/protocache"
   packages = ["."]
-  revision = "e3da0393dce95996b439be606b718846674bd13e"
+  revision = "fa6ce1fbc5e08a414d04e574aa28b993dd765309"
 
 [[projects]]
   branch = "master"

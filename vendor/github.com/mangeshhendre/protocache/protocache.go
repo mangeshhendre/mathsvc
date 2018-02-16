@@ -31,9 +31,8 @@ type PC struct {
 }
 
 // New creates a new instance of the protocache client.
-func New(timeout time.Duration, scope string, servers ...string) *PC {
+func New(scope string, servers ...string) *PC {
 	client := memcache.New(servers...)
-	client.Timeout = timeout
 
 	if len(scope) == 0 || len(strings.TrimSpace(scope)) == 0 {
 		scope = "Default"

@@ -21,7 +21,7 @@ type MathCache struct {
 func New(imp pb.MathServer) (pb.MathServer, error) {
 	client := &MathCache{
 		server: imp,
-		cache:  protocache.New(2*time.Second, "Sample", listMemcacheServers()...),
+		cache:  protocache.New("MathSample", listMemcacheServers()...),
 		logger: log.New("MathCache"),
 	}
 	return client, nil
